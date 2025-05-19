@@ -1,5 +1,10 @@
 # Credit-Card-Fraud-Detection
 
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
+  <img alt="Google Colab" src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=google-colab&logoColor=white" />
+</p>
+
 This project explored credit card fraud detection using a Logistic Regression model, carefully following the provided instructions. To build the model, I first preprocessed and normalized the transaction data using StandardScaler and removed duplicate entries. Recognizing the challenge of class imbalance, I employed SMOTE (Synthetic Minority Over-sampling Technique) to oversample the minority class (fraudulent transactions). The dataset was then split into training and testing sets using train_test_split, ensuring a robust evaluation of the model's performance.
 
 Following the guidelines, I trained a Logistic Regression model and evaluated its performance using key metrics like accuracy, precision, recall, and F1-score. While the model achieved a high overall accuracy of approximately 97%, it's crucial to acknowledge the limitations posed by the imbalanced dataset. The significantly higher number of legitimate transactions compared to fraudulent ones can inflate accuracy as a metric, making it an unreliable indicator of performance in this context.
